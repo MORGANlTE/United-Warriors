@@ -21,12 +21,12 @@ function App() {
           ></div>
         </ParallaxLayer>
         
-         <ParallaxLayer offset={0.2} speed={5}>
+         <ParallaxLayer offset={0.5} speed={5}>
           <div className="w-full h-full text-white mt-96 -z-30">
             {/* add a box to the left and one to the right, transparent */}
             <div className="float-left w-1/3 py-3 bg-slate-900 bg-opacity-70 rounded-r-2xl h-fit">
-              <p className="text-4xl leading-loose text-white">
-                Start getting your sh*t together today
+              <p className="text-3xl leading-loose text-white">
+                💪 Get your sh*t together
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ function App() {
           <div className="z-30 w-full h-full mt-64 text-white">
             {/* add a box to the left and one to the right, transparent */}
             <div className="float-right w-1/3 py-3 bg-slate-900 bg-opacity-70 rounded-l-2xl h-fit">
-              <p className="text-4xl leading-loose text-white">
+              <p className="text-3xl leading-loose text-white">
                 📝 Log relapses
                 <br/>
                 👟 Track progress
@@ -87,7 +87,7 @@ function App() {
           </div>
         </ParallaxLayer>
         <ParallaxLayer speed={0.01} offset={0.99}>
-          <div className="w-full h-full bg-red-900 rounded-t-full -z-20 mt-60">
+          <div className="w-full h-full bg-red-900 rounded-t-full -z-20 mt-52">
             {/* add a box to the left and one to the right, transparent */}
               <p className="text-4xl leading-loose text-white mt-80">
                 Made by the community, for the community
