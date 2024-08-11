@@ -12,7 +12,9 @@ function App() {
 
   return (
     <>
-      <link rel="icon" href="path/to/your/favicon.ico" />
+      <meta property="og:title" content="United Warriors Accountability Bot" />
+      <meta property="og:description" content="Your daily accountability bot & so much more" />
+      <meta property="og:image" content="https://i.ibb.co/ChRzpkz/thumbnail.png"   />
       <title>United Warriors Bot</title>
       <div className="App">
         {/* static navbar */}
