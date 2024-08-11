@@ -11,6 +11,7 @@ function App() {
   const ref = useRef();
 
   return (
+    <>
     <div className="App">
       {/* static navbar */}
       <Parallax pages={1.3} ref={ref}>
@@ -60,6 +61,7 @@ function App() {
                     className="px-4 py-3 text-2xl text-center duration-500 bg-red-600 rounded-md hover:bg-red-400">Support Guild</a>
                   </div>
               </div>
+              <a href="https://github.com/MORGANlTE/United-Warriors/blob/main/README.md" className='text-white' target="_blank" rel="noreferrer">Privacy policy</a>
             </div>
           </div>
         </ParallaxLayer>
@@ -95,7 +97,8 @@ function App() {
           </div>
         </ParallaxLayer>
       </Parallax>
-    </div>
+      </div>
+      </>
   );
 }
 
